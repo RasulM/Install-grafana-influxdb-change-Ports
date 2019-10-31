@@ -1,4 +1,5 @@
 #!/bin/bash
+wget https://dl.grafana.com/oss/release/grafana_6.4.3_armhf.deb 
 sudo dpkg -i grafana_6.4.3_armhf.deb
 systemctl daemon-reload;
 systemctl start grafana-server;
